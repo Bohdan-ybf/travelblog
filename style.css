@@ -374,3 +374,53 @@ img {
     font-family: 'Raleway', sans-serif;
     padding: 15px;
 }
+
+
+/* socia icons */
+
+.sicial__icons {
+    display: flex;
+    justify-content: center
+}
+
+.sicial__icons div {
+    margin: 0 5px 15px;
+}
+
+.facebook {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(/travelblog/img/facebook-gray.png);
+}
+
+.instagram {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(/travelblog/img/instagram-gray.png);
+}
+
+.youtube {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(/travelblog/img/youtube-gray.png);
+}
+
+/* Hover */
+
+.facebook:hover {
+    background-image: url(/travelblog/img/facebook-color.png);
+}
+
+.instagram:hover {
+    background-image: url(/travelblog/img/instagram-color.png);
+}
+
+.youtube:hover {
+    background-image: url(/travelblog/img/youtube-color.png);
+}
